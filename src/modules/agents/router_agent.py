@@ -13,7 +13,6 @@ from src.configs.config import OPENROUTER_API_KEY
 from src.modules.schemas.schema import Router, State
 
 
-
 class RouterAgent:
     def __init__(self, tools: List):
         self._llm = ChatOpenAI(
